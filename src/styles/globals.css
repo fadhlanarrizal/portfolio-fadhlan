@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #6366f1;
+  --color-secondary: #8b5cf6;
+  --color-accent: #06b6d4;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.dark {
+  --color-primary: #818cf8;
+  --color-secondary: #a78bfa;
+  --color-accent: #22d3ee;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, var(--color-secondary), var(--color-primary));
+}
+
+/* Custom utilities */
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent;
+  }
+  
+  .dark .gradient-text {
+    @apply bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  
+  .dark .glass-effect {
+    @apply bg-gray-800/30 backdrop-blur-md border border-gray-700/30;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 
+           text-white font-medium px-6 py-3 rounded-lg transition-all duration-300 
+           transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25;
+  }
+  
+  .dark .btn-primary {
+    @apply from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 
+           hover:shadow-purple-400/25;
+  }
+  
+  .section-padding {
+    @apply py-20 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-width {
+    @apply max-w-6xl mx-auto;
+  }
+}
+
+/* Animation classes */
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.fade-in {
+  opacity: 0;
+}
+
+.slide-left {
+  opacity: 0;
+  transform: translateX(-30px);
+}
+
+.slide-right {
+  opacity: 0;
+  transform: translateX(30px);
+}
+
+.scale-up {
+  opacity: 0;
+  transform: scale(0.9);
+}
