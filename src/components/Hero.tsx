@@ -54,19 +54,18 @@ const Hero: React.FC = () => {
         <div ref={textRef} className="space-y-6">
           <div className="overflow-hidden">
             <h1 className="hero-title-line text-5xl sm:text-6xl lg:text-7xl font-black mb-4">
-              <span className="gradient-text">Hi, I'm Alex</span>
+              <span className="gradient-text">Hi, I'm Fadhlan</span>
             </h1>
           </div>
           
           <div className="overflow-hidden">
             <h2 className="hero-title-line text-3xl sm:text-4xl lg:text-5xl font-light text-gray-800 dark:text-gray-200">
-              Frontend Developer
+              Backend Developer
             </h2>
           </div>
           
           <p className="hero-subtitle text-lg sm:text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto leading-relaxed">
-            I craft beautiful, interactive web experiences with modern technologies. 
-            Passionate about clean code, stunning design, and seamless user experiences.
+            Crafting robust and scalable web applications with PHP, TypeScript, and Laravel.
           </p>
           
           <div className="hero-cta flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">

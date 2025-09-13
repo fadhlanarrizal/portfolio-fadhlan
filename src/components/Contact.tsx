@@ -75,25 +75,25 @@ const Contact: React.FC = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com',
+      url: 'https://github.com/fadhlanarrizal',
       icon: Github,
       color: 'hover:text-gray-900 dark:hover:text-white'
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com',
+      url: 'https://linkedin.com/in/fadhlanarrizal',
       icon: Linkedin,
       color: 'hover:text-blue-600'
     },
     {
       name: 'Email',
-      url: 'mailto:alex@example.com',
+      url: 'mailto:fadhlanarrizal@gmail.com',
       icon: Mail,
       color: 'hover:text-red-600'
     },
     {
       name: 'Instagram',
-      url: 'https://instagram.com',
+      url: 'https://instagram.com/0.ofadhlanarrizalo.0',
       icon: Instagram,
       color: 'hover:text-pink-600'
     }
@@ -147,7 +147,7 @@ const Contact: React.FC = () => {
                   className="w-full px-4 py-3 bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600 
                            rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent 
                            text-gray-900 dark:text-white transition-all duration-300"
-                  placeholder="your.email@example.com"
+                  placeholder="your.email@gmail.com"
                 />
               </div>
 
@@ -205,7 +205,7 @@ const Contact: React.FC = () => {
                   <strong className="text-gray-900 dark:text-white">Response time:</strong> Usually within 24 hours
                 </p>
                 <p>
-                  <strong className="text-gray-900 dark:text-white">Location:</strong> San Francisco, CA
+                  <strong className="text-gray-900 dark:text-white">Location:</strong> Yogyakarta, ID
                 </p>
               </div>
             </div>
@@ -238,7 +238,7 @@ const Contact: React.FC = () => {
       {/* Footer */}
       <div className="contact-content mt-20 pt-8 border-t border-gray-200 dark:border-gray-700 text-center">
         <p className="text-gray-600 dark:text-gray-400">
-          © 2024 Alex Smith. Built with ❤️ using React, TypeScript & GSAP.
+          © 2025 Fadhlan Ar-Rizal. Built with ❤️ using React, TypeScript & GSAP.
         </p>
       </div>
     </section>

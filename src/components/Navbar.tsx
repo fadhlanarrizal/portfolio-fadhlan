@@ -51,7 +51,7 @@ const Navbar: React.FC<NavbarProps> = ({ isDarkMode, toggleDarkMode }) => {
     }`}>
       <div className="container-width flex justify-between items-center px-4 sm:px-6">
         <div className="text-2xl font-bold gradient-text">
-          Alex
+          Fadhlan
         </div>
 
         {/* Desktop Navigation */}

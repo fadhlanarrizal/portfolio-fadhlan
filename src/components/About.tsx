@@ -6,8 +6,8 @@ const About: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
 
   const skills = [
-    'React.js', 'TypeScript', 'Next.js', 'Node.js',
-    'GSAP', 'Tailwind CSS', 'GraphQL', 'PostgreSQL'
+    'PHP', 'TypeScript', 'Laravel', 'Python' , 'JavaScript',
+     'MySQL', 'PostgreSQL', 'MongoDB'
   ];
 
   useEffect(() => {
@@ -60,8 +60,8 @@ const About: React.FC = () => {
               <div className="aspect-square rounded-2xl bg-gradient-to-br from-purple-400 to-pink-400 p-1">
                 <div className="w-full h-full rounded-2xl bg-gray-100 dark:bg-gray-900 overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
-                    alt="Alex Profile" 
+                    src="https://fadhlanarrizal.github.io/assets/images/fadhlan.jpg" 
+                    alt="Fadhlan Profile" 
                     className="w-full h-full object-cover rounded-2xl group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -80,14 +80,14 @@ const About: React.FC = () => {
               </h2>
               <div className="space-y-4 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
                 <p>
-                  I'm a passionate frontend developer with 3+ years of experience creating 
-                  beautiful, functional web applications. I love turning complex problems 
-                  into simple, intuitive designs.
+                  I'm a passionate backend developer with a knack for building robust and scalable web applications. 
+                  With a strong foundation in PHP, TypeScript, and Laravel, I enjoy crafting efficient server-side solutions 
+                  that power seamless user experiences.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring new design trends, 
-                  experimenting with animations, or contributing to open-source projects. 
-                  I believe in the power of great user experiences to make a difference.
+                  Beyond coding, I love exploring new technologies, contributing to open-source projects, and continuously 
+                  honing my skills. When I'm not in front of a computer, you can find me reading tech blogs, hiking, or 
+                  experimenting with new recipes in the kitchen.
                 </p>
               </div>
             </div>

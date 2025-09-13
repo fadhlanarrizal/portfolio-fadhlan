@@ -21,38 +21,38 @@ const Timeline: React.FC = () => {
     {
       id: '1',
       type: 'work',
-      title: 'Senior Frontend Developer',
-      institution: 'TechCorp Solutions',
-      period: '2024 - Present',
-      description: 'Leading frontend development for multiple client projects, mentoring junior developers, and implementing modern React patterns.',
-      location: 'San Francisco, CA'
+      title: 'Data Entry',
+      institution: 'PT. Rahadhyan Integrasi Nusantara',
+      period: '2025 - Present',
+      description: 'Responsible for accurate data entry and management, ensuring data integrity and confidentiality in a fast-paced environment.',
+      location: 'Yogyakarta, ID'
     },
     {
       id: '2',
-      type: 'work',
-      title: 'Frontend Developer',
-      institution: 'Digital Agency Co.',
-      period: '2022 - 2024',
-      description: 'Developed responsive web applications using React, TypeScript, and modern CSS frameworks. Collaborated with design teams to create pixel-perfect implementations.',
-      location: 'Remote'
+      type: 'education',
+      title: 'B.Sc in Computer Science',
+      institution: 'University of Mercu Buana Yogyakarta',
+      period: '2023 - Present',
+      description: 'Focused on software engineering, data structures, and web development. Graduated Magna Cum Laude with a 3.8 GPA.',
+      location: 'Yogyakarta, ID'
     },
     {
       id: '3',
-      type: 'education',
-      title: 'B.Sc in Computer Science',
-      institution: 'University of California',
-      period: '2018 - 2022',
-      description: 'Focused on software engineering, data structures, and web development. Graduated Magna Cum Laude with a 3.8 GPA.',
-      location: 'Los Angeles, CA'
+      type: 'work',
+      title: 'Head of Student Success',
+      institution: 'PPTI Qodr Yogyakarta',
+      period: '2022 - 2023',
+      description: 'Led initiatives to improve student engagement and success rates, organized workshops, and provided mentorship to students in web development courses.',
+      location: 'Yogyakarta, ID'
     },
     {
       id: '4',
       type: 'work',
-      title: 'Junior Web Developer',
-      institution: 'StartupXYZ',
-      period: '2021 - 2022',
-      description: 'Part-time position during studies. Built landing pages and helped maintain the company website using HTML, CSS, and JavaScript.',
-      location: 'Los Angeles, CA'
+      title: 'Qur\'anic Teacher (full-time)',
+      institution: 'Al-Andalus Islamic Boarding School',
+      period: '2019 - 2021',
+      description: 'Taught Qur\'anic studies to students, developed curriculum, and organized community events to promote Islamic education.',
+      location: 'Bogor, ID'
     }
   ];
 
